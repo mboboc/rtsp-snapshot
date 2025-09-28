@@ -1,0 +1,8 @@
+[Unit]
+Description=Timer for RTSP snapshot
+[Timer]
+OnCalendar=*-*-* 5:0:0
+AccuracySec=10s
+
+[Install]
+WantedBy=timers.target

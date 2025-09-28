@@ -1,0 +1,17 @@
+[Unit]
+Description=Save a snapshot from an RTSP stream to a file.
+
+[Service]
+User=
+Group=
+Type=oneshot
+TimeoutStartSec=2h
+WorkingDirectory=
+EnvironmentFile=
+ExecStart=
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=
+
+[Install]
+WantedBy=multi-user.target

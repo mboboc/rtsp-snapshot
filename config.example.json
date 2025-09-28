@@ -1,0 +1,18 @@
+[
+    {
+        "camera_name": "CAM1",
+        "camera_url": "rtsp://username:password@camera-ip:port/stream",
+        "directory": "snapshots_cam1",
+        "filename": "videofile",
+        "fileformat": "mp4",
+        "duration": "10"
+    },
+    {
+        "camera_name": "CAM1",
+        "camera_url": "rtsp://username:password@camera-ip:port/stream",
+        "directory": "snapshots_cam1",
+        "filename": "snapshot",
+        "fileformat": "jpg",
+        "duration": "10"
+    }
+]
